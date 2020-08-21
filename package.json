@@ -1,13 +1,16 @@
 {
   "name": "@hubhazard/module-package-template",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0",
   "description": "A module for the HubHazard application...",
   "author": "Beniamin Dudek <online.xkonti@gmail.com>",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "main": "lib/index.js",
+  "private": false,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "files": [
-    "lib/**/*",
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
     "*.md"
   ],
   "scripts": {
