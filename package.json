@@ -1,6 +1,6 @@
 {
   "name": "@hubhazard/module-package-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A module for the HubHazard application...",
   "author": "Beniamin Dudek <online.xkonti@gmail.com>",
   "license": "MIT",
@@ -38,7 +38,8 @@
   },
   "bugs": "https://github.com/hubhazard/module-package-template",
   "peerDependencies": {
-    "@nestjs/common": "^7.4.2"
+    "@nestjs/common": "^7.4.2",
+    "@hubhazard/core": "latest"
   },
   "dependencies": {},
   "devDependencies": {
